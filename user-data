@@ -11,10 +11,11 @@ cd installjenkin
 chmod +x installjava.sh
 chmod +x installjenkins.sh
 chmod +x installmaven.sh
+chmod +x installdocker.sh
 
 # Run the scripts
 ./installjava.sh
 ./installjenkins.sh
 ./installmaven.sh
-
+./installdocker.sh
 
