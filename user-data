@@ -10,7 +10,7 @@ git clone https://github.com/saifr1996/installjenkin
 cd installjenkin
 chmod +x installjava.sh
 chmod +x installjenkins.sh
-chmod +X installmaven.sh
+chmod +x installmaven.sh
 
 # Run the scripts
 ./installjava.sh
