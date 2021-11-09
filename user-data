@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Install Git
+yum install git
+
+# Clone this repository
+git clone https://github.com/saifr1996/installjenkin
+
+# Setup permissions on the scripts
+cd installjenkin
+chmod +x installjava.sh
+chmod +x installjenkins.sh
+chmod +X installmaven.sh
+
+# Run the scripts
+./installjava.sh
+./installjenkins.sh
+./installmaven.sh
+
+
